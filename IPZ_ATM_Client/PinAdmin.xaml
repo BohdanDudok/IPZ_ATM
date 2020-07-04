@@ -1,0 +1,53 @@
+﻿<Window x:Class="IPZ_ATM_Client.PinAdmin"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:IPZ_ATM_Client"
+        mc:Ignorable="d"
+        Title="Банкомат" Height="561" Width="800" ResizeMode="NoResize" WindowStartupLocation="CenterScreen">
+    <Grid Background="{DynamicResource {x:Static SystemColors.MenuHighlightBrushKey}}" Margin="0,0,0,-3">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="0*"/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Canvas HorizontalAlignment="Left" Height="218" Margin="176,56,0,0" VerticalAlignment="Top" Width="434" Background="White" Grid.ColumnSpan="2">
+            <Label Content="Введіть номер і ПІН-код адміністратора" HorizontalAlignment="Center" VerticalAlignment="Top" Width="222" Height="26" Canvas.Left="109" Canvas.Top="24" RenderTransformOrigin="0.5,0.5">
+                <Label.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="-0.09"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Label.RenderTransform>
+            </Label>
+            <PasswordBox x:Name="pinadmin" Canvas.Left="165" Canvas.Top="133" Height="31" Width="132" MaxLength="4"/>
+            <TextBox x:Name="numberadmin" Height="31" Canvas.Left="165" TextWrapping="Wrap" Text="" Canvas.Top="84" Width="132" MaxLength="10"/>
+            <Label Content="Номер :" Canvas.Left="96" Canvas.Top="84" Width="64" Height="31"/>
+            <Label Content="PIN-код :" Canvas.Left="96" Canvas.Top="133" Width="69" Height="31"/>
+            <Label Content="Вихід з системи" HorizontalAlignment="Left" VerticalAlignment="Top" Width="96" Height="45" Canvas.Left="328" Canvas.Top="156"/>
+        </Canvas>
+        <Button x:Name="B" Content="1" HorizontalAlignment="Left" Margin="246,293,0,0" VerticalAlignment="Top" Width="62" Height="48" Click="Button_Click" Grid.ColumnSpan="2"/>
+        <Button Content="2" HorizontalAlignment="Left" Margin="313,293,0,0" VerticalAlignment="Top" Width="62" Height="48" Click="Button_Click_1" Grid.ColumnSpan="2"/>
+        <Button Content="3" HorizontalAlignment="Left" Margin="384,293,0,0" VerticalAlignment="Top" Width="62" Height="48" Click="Button_Click_2" Grid.ColumnSpan="2"/>
+        <Button Content="4" HorizontalAlignment="Left" Margin="246,346,0,0" VerticalAlignment="Top" Width="62" Height="48" Click="Button_Click_3" Grid.ColumnSpan="2"/>
+        <Button Content="5" HorizontalAlignment="Left" Margin="313,346,0,0" VerticalAlignment="Top" Width="62" Height="48" Click="Button_Click_4" Grid.ColumnSpan="2"/>
+        <Button Content="6" HorizontalAlignment="Left" Margin="384,346,0,0" VerticalAlignment="Top" Width="62" Height="48" Click="Button_Click_5" Grid.ColumnSpan="2"/>
+        <Button Content="7" HorizontalAlignment="Left" Margin="246,399,0,0" VerticalAlignment="Top" Width="62" Height="48" Click="Button_Click_6" Grid.ColumnSpan="2"/>
+        <Button Content="8" HorizontalAlignment="Left" Margin="313,399,0,0" VerticalAlignment="Top" Width="62" Height="48" Click="Button_Click_7" Grid.ColumnSpan="2"/>
+        <Button Content="9" HorizontalAlignment="Left" Margin="384,399,0,0" VerticalAlignment="Top" Width="62" Height="48" Click="Button_Click_8" Grid.ColumnSpan="2"/>
+        <Button Content="0" HorizontalAlignment="Left" Margin="313,452,0,0" VerticalAlignment="Top" Width="62" Height="48" Click="Button_Click_9" Grid.ColumnSpan="2"/>
+        <Button Content="Зкид" HorizontalAlignment="Left" Margin="608,293,0,0" VerticalAlignment="Top" Width="62" Height="48" Click="Button_Click_10" Grid.ColumnSpan="2"/>
+        <Button Content="Відміна" HorizontalAlignment="Left" Margin="608,346,0,0" VerticalAlignment="Top" Width="62" Height="48" Click="Button_Click_13" Grid.ColumnSpan="2"/>
+        <Button Content="Ввід" HorizontalAlignment="Left" Margin="608,399,0,0" VerticalAlignment="Top" Width="62" Height="48" Click="Button_Click_11" Grid.ColumnSpan="2"/>
+        <Button Content="" HorizontalAlignment="Left" Margin="109,56,0,0" VerticalAlignment="Top" Width="62" Height="48" Click="Button_Click_12" Grid.ColumnSpan="2"/>
+        <Button Content=""  HorizontalAlignment="Left" Margin="109,109,0,0" VerticalAlignment="Top" Width="62" Height="48" Click="Button_Click_12" Grid.ColumnSpan="2"/>
+        <Button Content="" HorizontalAlignment="Left" Margin="109,162,0,0" VerticalAlignment="Top" Width="62" Height="48" Click="Button_Click_14" Grid.ColumnSpan="2"/>
+        <Button Content="" HorizontalAlignment="Left" Margin="109,215,0,0" VerticalAlignment="Top" Width="62" Height="48" Click="Button_Click_15" Grid.ColumnSpan="2"/>
+        <Button Content="" HorizontalAlignment="Left" Margin="615,56,0,0" VerticalAlignment="Top" Width="62" Height="48" Click="Button_Click_17" Grid.ColumnSpan="2"/>
+        <Button Content="" HorizontalAlignment="Left" Margin="615,109,0,0" VerticalAlignment="Top" Width="62" Height="48" Grid.ColumnSpan="2" Click="Button_Click_16"/>
+        <Button Content="" HorizontalAlignment="Left" Margin="615,162,0,0" VerticalAlignment="Top" Width="62" Height="48" Grid.ColumnSpan="2" Click="Button_Click_18"/>
+        <Button Content="" HorizontalAlignment="Left" Margin="615,215,0,0" VerticalAlignment="Top" Width="62" Height="48" Click="Button_Click_16" Grid.ColumnSpan="2"/>
+    </Grid>
+</Window>

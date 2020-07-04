@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29411.108
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IPZ_ATM_Client", "IPZ_ATM_Client\IPZ_ATM_Client.csproj", "{6A9B30C4-935D-42EC-9D9F-E85A7E722CFC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6A9B30C4-935D-42EC-9D9F-E85A7E722CFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A9B30C4-935D-42EC-9D9F-E85A7E722CFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A9B30C4-935D-42EC-9D9F-E85A7E722CFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A9B30C4-935D-42EC-9D9F-E85A7E722CFC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {76BC3660-DBC3-44EB-B9A0-56B5090CD04C}
+	EndGlobalSection
+EndGlobal
